@@ -17,4 +17,8 @@ public class MainActivity extends AppCompatActivity {
     public void number(View view){
         startActivity(new Intent(this, ScrollNumberActivity.class));
     }
+
+    public void openBook(View view){
+        startActivity(new Intent(this, ChangePageActivity.class));
+    }
 }

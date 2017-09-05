@@ -6,6 +6,8 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
+import com.taovo.rjp.propertyanim.evaluator.NumberEvaluator;
+
 public class ScrollNumberActivity extends Activity {
 
     @Override

@@ -21,6 +21,8 @@
         </activity>
         <activity android:name=".ScrollNumberActivity">
         </activity>
+        <activity android:name=".ChangePageActivity">
+        </activity>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package com.taovo.rjp.propertyanim;
+package com.taovo.rjp.propertyanim.evaluator;
 
 import android.animation.TypeEvaluator;
 
