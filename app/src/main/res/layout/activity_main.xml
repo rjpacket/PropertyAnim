@@ -25,4 +25,11 @@
         android:onClick="openBook"
         />
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="电子书翻页效果"
+        android:gravity="center"
+        android:onClick="scrollBook"
+        />
 </LinearLayout>

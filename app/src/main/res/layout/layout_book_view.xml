@@ -1,25 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merge xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
-
     <TextView
-        android:id="@+id/tv_book_author"
+        android:id="@+id/page_one"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="作者：\n小\n黑"
+        android:text="page one"
         android:gravity="center"
-        android:background="#6d4c7c"
         android:textColor="#fff"
+        android:background="#6c5b5b"
         />
 
     <TextView
-        android:id="@+id/tv_book_name"
+        android:id="@+id/page_two"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="android\n入\n门\n到\n放\n弃"
+        android:text="page two"
         android:gravity="center"
-        android:background="#4d3b3b"
         android:textColor="#fff"
+        android:background="#617855"
         />
-</merge>
+
+    <TextView
+        android:id="@+id/page_three"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="page three"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:background="#456484"
+        />
+</FrameLayout>

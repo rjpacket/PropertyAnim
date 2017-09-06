@@ -9,7 +9,7 @@ import android.widget.BaseAdapter;
 import android.widget.GridView;
 
 import com.taovo.rjp.propertyanim.evaluator.BookValue;
-import com.taovo.rjp.propertyanim.view.BookView;
+import com.taovo.rjp.propertyanim.view.BookOpenView;
 
 public class ChangePageActivity extends Activity {
     private Context mContext;
@@ -44,7 +44,7 @@ public class ChangePageActivity extends Activity {
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
             if(convertView == null){
-                convertView = new BookView(mContext);
+                convertView = new BookOpenView(mContext);
             }
 
             convertView.setOnClickListener(new View.OnClickListener() {
@@ -54,9 +54,9 @@ public class ChangePageActivity extends Activity {
                     BookValue startValue = new BookValue(v.getLeft(), v.getTop(), v.getRight(), v.getBottom());
                     BookValue endValue = new BookValue(window.getLeft(), window.getTop(), window.getRight(), window.getBottom());
 
-                    BookView bookView = new BookView(mContext);
-                    window.addView(bookView);
-                    bookView.startAnim(startValue, endValue);
+                    BookOpenView bookOpenView = new BookOpenView(mContext);
+                    window.addView(bookOpenView);
+                    bookOpenView.startAnim(startValue, endValue);
                 }
             });
 

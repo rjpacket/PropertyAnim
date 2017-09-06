@@ -21,4 +21,8 @@ public class MainActivity extends AppCompatActivity {
     public void openBook(View view){
         startActivity(new Intent(this, ChangePageActivity.class));
     }
+
+    public void scrollBook(View view){
+        startActivity(new Intent(this, SeeBookActivity.class));
+    }
 }
