@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
+import com.taovo.rjp.propertyanim.bullet_screen.BulletActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -24,5 +26,9 @@ public class MainActivity extends AppCompatActivity {
 
     public void scrollBook(View view){
         startActivity(new Intent(this, SeeBookActivity.class));
+    }
+
+    public void bullet(View view){
+        startActivity(new Intent(this, BulletActivity.class));
     }
 }

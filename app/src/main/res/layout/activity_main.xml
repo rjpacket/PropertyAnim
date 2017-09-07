@@ -32,4 +32,12 @@
         android:gravity="center"
         android:onClick="scrollBook"
         />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="弹幕"
+        android:gravity="center"
+        android:onClick="bullet"
+        />
 </LinearLayout>

@@ -25,6 +25,8 @@
         </activity>
         <activity android:name=".SeeBookActivity">
         </activity>
+        <activity android:name=".bullet_screen.BulletActivity">
+        </activity>
     </application>
 
 </manifest>

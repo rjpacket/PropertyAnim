@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="36dp"
+              android:background="@drawable/bg_bullet_view"
+              android:padding="4dp"
+              android:gravity="center_vertical"
+    >
+    <ImageView
+        android:id="@+id/iv_head_view"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@mipmap/headview"
+        />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="很好看"
+        android:textSize="14sp"
+        android:layout_marginLeft="4dp"
+        />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/zan"
+        android:layout_marginLeft="10dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_zan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="254"
+        android:textSize="12sp"
+        android:layout_marginRight="6dp"
+        android:layout_marginLeft="2dp"
+        />
+</LinearLayout>
